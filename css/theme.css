@@ -1,0 +1,48 @@
+/* VARIABLE */
+:root {
+  /* BASE */
+  --black: #000;
+  --white: #fff;
+  --red: red;
+  --orange: orange;
+  --yellow: yellow;
+  --green: green;
+  --blue: blue;
+  --violet: violet;
+  --purple: purple;
+
+  /* THEME 1 - Fresh & Bright*/
+  --petal: #f98866;
+  --poppy: #ff420e;
+  --stem: #80bd9e;
+  --spring-green: #89da59;
+
+  /* THEME 2 - Subdued & Professional  */
+  --mist: #90afc5;
+  --stone: #336b87;
+  --shadow: #2a3132;
+  --autumn-foliage: #763626;
+
+  /* THEME 3 - Dark & Earthy */
+  --crevice: #46211a;
+  --cloud-shadow: #693d3d;
+  --desert: #ba5536;
+  --red-clay: #a43820;
+
+  /* THEME 4 - Crisp & Dramatic */
+  --thunder-cloud: #505160;
+  --waterfall: #68829e;
+  --moss: #aebd38;
+  --meadow: #598234;
+
+  /* THEME 5 - Cool Blues */
+  --deep-aqua: #003b46;
+  --ocean: #07575b;
+  --wave: #66a5ad;
+  --seafoam: #c4dfe6;
+
+  --primary-color: var(--thunder-cloud);
+  --secondary-color: var(--waterfall);
+  --tertiary-color: var(--moss);
+  --quaternary-color: var(--meadow);
+}

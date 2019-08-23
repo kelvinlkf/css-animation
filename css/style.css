@@ -1,0 +1,158 @@
+/* CUSTOM STYLE  */
+.brand-logo
+{
+  padding-left: 16px !important;
+}
+
+a {
+  color: var(--white) !important;
+}
+
+.sidenav >li> a
+{
+  color: black !important;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+.content {
+  padding-top: 10%;
+}
+
+.demo-row>.row>.col {
+  margin: 3%;
+}
+
+.email {
+  color: var(--secondary-color) !important;
+}
+
+/* RESPONSIVE */
+@media only screen and (min-width: 931px) {}
+
+/* NAVBAR */
+nav {
+  background-color: var(--primary-color);
+}
+
+/* FOOTER */
+.page-footer {
+  background-color: var(--primary-color);
+}
+
+/* SHAPE */
+:root {
+  --width: 72px;
+  --height: 72px;
+}
+
+.square {
+  width: var(--width);
+  height: var(--height);
+  border: 5px solid grey;
+}
+
+.circle {
+  width: var(--width);
+  height: var(--height);
+  background-color: grey;
+}
+
+.loading-circle {
+  width: var(--width);
+  height: var(--height);
+  border: 5px dotted grey;
+  border-radius: 50px;
+}
+
+.loading-ripple {
+  display: inline-block;
+  position: relative;
+  width: var(--width);
+  height: var(--height);
+}
+
+.loading-bounce {
+  width: var(--width);
+  height: var(--height);
+}
+
+.loading-linear {
+  display: inline-block;
+  position: relative;
+  width: var(--width);
+  height: var(--height);
+}
+
+.loading-dual-ring {
+  display: inline-block;
+  width: var(--width);
+  height: var(--height);
+}
+
+.loading-ring {
+  display: inline-block;
+  position: relative;
+  width: var(--width);
+  height: var(--height);
+}
+
+.loading-zoom {
+  display: inline-block;
+  position: relative;
+  width: var(--width);
+  height: var(--height);
+}
+
+.loading-rectangle {
+  display: inline-block;
+  position: relative;
+  width: var(--width);
+  height: var(--height);
+}
+
+.loading-drop {
+  background: silver;
+  width: var(--width);
+  height: 24px;
+}
+
+.loading-sin {
+  display: inline-block;
+  position: relative;
+  width: var(--width);
+  height: var(--height);
+}
+
+.loading-expand {
+  width: var(--width);
+  height: var(--height);
+}
+
+.loading-hourglass {
+  display: inline-block;
+  position: relative;
+  width: var(--width);
+  height: var(--height);
+}
+
+.loading-coins {
+  width: var(--width);
+  height: var(--height);
+  border-radius: 50%;
+  border: 5px double var(--black);
+  padding: 16px;
+}
+
+.loading-triangle {
+  width: var(--width);
+  height: var(--height);
+}

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+
+<head>
+  <meta name="viewport" content="width = device-width, initial-scale = 1">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="css/theme.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/animation.css">
+
+</head>
+
+<main>
+
+  <!-- NAVBAR -->
+  <nav>
+    <div class="nav-wrapper">
+      <a class="brand-logo">CSS ANIMATION LIBRARY</a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="mailto:k3lvinlkf@gmail.com">Email Me</a></li>
+        <li><a target="_blank" href="https://materializecss.com/">Materialize CSS</a></li>
+        <li><a target="_blank" href="https://www.canva.com/learn/100-color-combinations/">Colour Template</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <ul class="sidenav" id="mobile-demo">
+    <li><a class="email" href="mailto:k3lvinlkf@gmail.com">Email Me</a></li>
+    <li><a target="_blank" href="https://materializecss.com/">Materialize CSS</a></li>
+    <li><a target="_blank" href="https://www.canva.com/learn/100-color-combinations/">Colour Template</a></li>
+  </ul>
+
+  <!-- CONTENT -->
+  <section class="content container">
+
+    <div class="row">
+      <!-- CAROUSEL -->
+      <!-- <div class="demo-row col s12 m6">
+        <h6 class="header">Normal Component</h6><br><br>
+        <div class="row">
+          <div class="square col" id="pendulum">
+
+          </div>
+
+          <div class="square col" id="bounce">
+
+          </div>
+
+          <div class="square col" id="giggle">
+
+          </div>
+
+          <div class="square col" id="scale-up">
+
+          </div>
+
+          <div class="square col" id="scale-down">
+
+          </div>
+        </div>
+
+      </div> -->
+
+      <!-- FORM -->
+      <div class="demo-row col s12">
+
+        <h5 class="header">Loading Component</h5><br><br>
+        <div class="row">
+          <div class="col">
+            <div class="loading-circle" id="rotate"></div>
+          </div>
+          <div class="col">
+            <div class="loading-ripple" id="loading-ripple">
+              <div></div>
+              <div></div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="loading-bounce" id="loading-bounce">
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="loading-linear" id="loading-linear">
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="loading-dual-ring" id="loading-dual-ring"></div>
+          </div>
+          <div class="col">
+            <div class="loading-ring" id="loading-ring">
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+
+          </div>
+          <div class="col">
+            <div class="loading-zoom" id="loading-zoom">
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="loading-rectangle" id="loading-rectangle">
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="loading-drop" id="loading-drop">
+              <div></div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="loading-sin" id="loading-sin">
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="loading-expand" id="loading-expand">
+              <div></div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="loading-hourglass" id="loading-hourglass"></div>
+          </div>
+          <div class="col">
+            <div class="loading-coins" id="loading-coins">
+              <div>$</div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="loading-triangle" id="loading-triangle">
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- JAVASCRIPT -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+  <script>
+    $(document).ready(function () {
+      $('.sidenav').sidenav();
+      // $('.carousel').carousel();
+
+      $(".carousel-img").click(function () {
+        $(this).css({ "transform": "0.25s   ease-in-out", "transform": "scale(1.25)" })
+      });
+    });
+  </script>
+</main>
+
+<!-- FOOTER -->
+<footer class="page-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col s12">
+        <p class="grey-text text-lighten-4">There's nothing worth to mention, if you find this useful just email <a
+            class="email" href="mailto:k3lvinlkf@gmail.com">k3lvinlkf@gmail.com</a> and let me know your thoughts</p>
+      </div>
+    </div>
+  </div>
+  <div class="footer-copyright">
+    <div class="container">
+      © 2019 No Copyright Owned, It's Free For Everyone
+    </div>
+  </div>
+</footer>
